@@ -4,6 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.jsdelivr.net/npm/axios@1.6.7/dist/axios.min.js"></script>
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
     <link rel="stylesheet" href="src/style.css" />
     <title>Poems for All</title>
 </head>
@@ -14,14 +16,12 @@
             <h1>AI Poems for All</h1>
         </header>
         <main>
-            <form action="">
+            <form id="create-poem-form">
                 <input type="text" placeholder="Enter an inspiring word" autofocus required autocomplete="off"
                     class="directions" />
                 <input type="submit" class="push-button" />
             </form>
-            <div class="poem">A poem to inspire you
-                <br />Love is coming
-                <br />
+            <div class="poem" id="poem">A poem to inspire you
             </div>
         </main>
 
