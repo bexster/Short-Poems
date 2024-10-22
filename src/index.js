@@ -19,8 +19,9 @@ function createPoem(event) {
 
   axios.get(apiUrl).then(generatingPoem);
 
-  let displayPoem = document.querySelector("#poem");
-  displayPoem.innerHTML = "creating your unique poem";
+  let poemElement = document.querySelector("#poem");
+  poemElement.classList.remove("hidden");
+  poemElement.innerHTML = `<div class= "blink">creating your unique poem about ${userInput.value}</div>`;
 }
 
 let createForm = document.querySelector("#create-poem-form");
