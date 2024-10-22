@@ -45,7 +45,7 @@ form {
   font-size: 20px;
 }
 .poem {
-  font-size: 14px;
+  font-size: 17px;
   background-color: #e7eaf6;
   padding: 20px;
   line-height: 25px;
@@ -53,6 +53,13 @@ form {
   border-left: 3px solid #38598b;
   box-shadow: 0px 20px 60px rgba(65, 50, 100, 0.08);
   border-radius: 10px;
+}
+.poem strong {
+  color: #113f67;
+  font-family: "Cedarville Cursive", cursive;
+  font-weight: 800;
+  font-style: normal;
+  font-size: 30px;
 }
 footer {
   margin: 30px;
